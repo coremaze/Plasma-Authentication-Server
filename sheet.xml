@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+ <PlasmaGraphics>
+  1
+ </PlasmaGraphics>
+ 
+  <SmoothMeshShape>
+  <SmoothMeshShape.wname>
+   sheet
+  </SmoothMeshShape.wname>
+  <SmoothMeshShape.face>
+   [0, 4, 1] <!--top-->
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.face>
+   [1, 4, 2] <!--right-->
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.face>
+   [2, 4, 3] <!--bottom-->
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.face>
+   [3, 4, 0] <!--left-->
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.vertexPositions>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.0, 0.0, <!--top left-->
+	 200.0, 0.0, <!--top right-->
+	 200.0, 200.0, <!--bottom right-->
+	 0.0, 200.0, <!--bottom left-->
+	 100.0, 100.0] <!--center-->
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexPositions>
+  
+  <SmoothMeshShape.vertexColors>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [1.0, 1.0, 1.0, 1.0, <!--top left-->
+	 1.0, 1.0, 1.0, 1.0, <!--top right-->
+	 1.0, 1.0, 1.0, 1.0, <!--bottom right-->
+	 1.0, 1.0, 1.0, 1.0, <!--bottom left-->
+	 0.0, 0.0, 0.0, 1.0] <!--center-->
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexColors>
+
+  <SmoothMeshShape.subdivisions>
+   6
+  </SmoothMeshShape.subdivisions>
+  <SmoothMeshShape.smoothWeight>
+   0.5
+  </SmoothMeshShape.smoothWeight>
+ </SmoothMeshShape>
+ 
+ 
+  <TextShape>
+  <TextShape.wname>
+   Text
+  </TextShape.wname>
+  <TextShape.string>
+   <Attribute.frame>
+    When can we get rid of this TextShape?
+   </Attribute.frame>
+   <Attribute.frame/>
+  </TextShape.string>
+  <TextShape.color>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+  </TextShape.color>
+  <TextShape.strokeColor>
+   <Attribute.frame>
+    [0.3095237910747528, 0.3095237910747528, 0.3095237910747528, 0.4920634925365448]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+  </TextShape.strokeColor>
+  <TextShape.extrusionColor>
+   <Attribute.frame>
+    [0.5, 0.5, 0.5, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+  </TextShape.extrusionColor>
+  <TextShape.flags>
+   4
+  </TextShape.flags>
+  <TextShape.wfontName>
+   verdana.ttf
+  </TextShape.wfontName>
+  <TextShape.pixelSize>
+   100.0
+  </TextShape.pixelSize>
+  <TextShape.strokeRadius>
+   0.0
+  </TextShape.strokeRadius>
+  <TextShape.spacing>
+   0.0
+  </TextShape.spacing>
+  <TextShape.lineSpacing>
+   0.0
+  </TextShape.lineSpacing>
+  <TextShape.wrapWidth>
+   200.0
+  </TextShape.wrapWidth>
+ </TextShape>
+ 
+ 
+ <Widget>
+  <Widget.wname>
+   sheet:frame
+  </Widget.wname>
+  <Widget.caption/>
+  <Widget.innerBindPos>
+   [203.33172607421875, 81.66473388671875]
+  </Widget.innerBindPos>
+  <Widget.innerBindSize>
+   [203.33172607421875, 71.66763305664062]
+  </Widget.innerBindSize>
+  <Widget.bindPos>
+   [6.13798874837812e-06, 9.997100830078125]
+  </Widget.bindPos>
+  <Widget.bindSize>
+   [609.9951782226562, 215.00289916992188]
+  </Widget.bindSize>
+  <Widget.framePos>
+   [6.13798874837812e-06, 9.997100830078125]
+  </Widget.framePos>
+  <Widget.frameSize>
+   [609.9951782226562, 215.00289916992188]
+  </Widget.frameSize>
+  <Widget.bindMatrix>
+   [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.2809672625735402e-05, -7.5482730608200654e-06, 0.0, 1.0]
+  </Widget.bindMatrix>
+  <Widget.horizontalAlignment>
+   0.0
+  </Widget.horizontalAlignment>
+  <Widget.verticalAlignment>
+   0.0
+  </Widget.verticalAlignment>
+  <Widget.flags>
+   0
+  </Widget.flags>
+ </Widget>
+ 
+ 
+  <Widget>
+  <Widget.wname>
+   sheet:panel
+  </Widget.wname>
+  <Widget.caption/>
+  <Widget.innerBindPos>
+   [203.33172607421875, 81.66473388671875]
+  </Widget.innerBindPos>
+  <Widget.innerBindSize>
+   [203.33172607421875, 71.66763305664062]
+  </Widget.innerBindSize>
+  <Widget.bindPos>
+   [6.13798874837812e-06, 9.997100830078125]
+  </Widget.bindPos>
+  <Widget.bindSize>
+   [609.9951782226562, 215.00289916992188]
+  </Widget.bindSize>
+  <Widget.framePos>
+   [6.13798874837812e-06, 9.997100830078125]
+  </Widget.framePos>
+  <Widget.frameSize>
+   [609.9951782226562, 215.00289916992188]
+  </Widget.frameSize>
+  <Widget.bindMatrix>
+   [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.2809672625735402e-05, -7.5482730608200654e-06, 0.0, 1.0]
+  </Widget.bindMatrix>
+  <Widget.horizontalAlignment>
+   0.0
+  </Widget.horizontalAlignment>
+  <Widget.verticalAlignment>
+   0.0
+  </Widget.verticalAlignment>
+  <Widget.flags>
+   0
+  </Widget.flags>
+ </Widget>
+ 
+ 
+ <Node>
+  <!--root node-->
+  <Node.child>
+   1 
+  </Node.child>
+ </Node>
+ 
+<Node>
+  <Node.wname>
+   sheet
+  </Node.wname>
+  <Node.shape>
+   1
+  </Node.shape>
+  <Node.child>
+   2
+  </Node.child>
+  <Node.child>
+   3
+  </Node.child>
+  <Node.widget>
+   0
+  </Node.widget>
+  <Node.flags>
+   0
+  </Node.flags>
+  <Node.transformation>
+   -1
+  </Node.transformation>
+  <Node.display>
+   -1
+  </Node.display>
+ </Node>
+ 
+ 
+<Node>
+  <Node.wname>
+   sheet:frame
+  </Node.wname>
+  <Node.shape>
+   -1
+  </Node.shape>
+  <Node.widget>
+   0
+  </Node.widget>
+  <Node.flags>
+   0
+  </Node.flags>
+  <Node.transformation>
+   -1
+  </Node.transformation>
+  <Node.display>
+   -1
+  </Node.display>
+ </Node>
+ 
+ 
+ <Node>
+  <Node.wname>
+   sheet:panel
+  </Node.wname>
+  <Node.shape>
+   -1
+  </Node.shape>
+  <Node.widget>
+   1
+  </Node.widget>
+  <Node.flags>
+   0
+  </Node.flags>
+  <Node.transformation>
+   -1
+  </Node.transformation>
+  <Node.display>
+   -1
+  </Node.display>
+ </Node>
+ 
+
+ 
+ <pageWidth>
+  1000.0
+ </pageWidth>
+ <pageHeight>
+  1000.0
+ </pageHeight>
+ <dpi>
+  72.0
+ </dpi>
+ <unit>
+  0.0
+ </unit>
+ <pageColor>
+  [1.0, 1.0, 1.0, 1.0]
+ </pageColor>
+</root>

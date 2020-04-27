@@ -55,7 +55,7 @@ def Validate():
 
 @app.route('/LS/Activation/Deactivate/')
 def Deactivate():
-    return AttemptActivation(request.args.get('id'), Activation.Deactivate)
+    return '0'
 
 if __name__ == '__main__':
     app.run(port=80)

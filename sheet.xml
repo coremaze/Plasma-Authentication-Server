@@ -30,22 +30,22 @@
   </Widget.wname>
   <Widget.caption/>
   <Widget.innerBindPos>
-   [200, 100]
+   [0, 0]
   </Widget.innerBindPos>
   <Widget.innerBindSize>
-   [2000, 1500]
+   [1600, 900]
   </Widget.innerBindSize>
   <Widget.bindPos>
-   [200, 100]
+   [0, 0]
   </Widget.bindPos>
   <Widget.bindSize>
-   [2000, 1500]
+   [1600, 900]
   </Widget.bindSize>
   <Widget.framePos>
-   [200, 100]
+   [0, 0]
   </Widget.framePos>
   <Widget.frameSize>
-   [2000, 1500]
+   [1600, 900]
   </Widget.frameSize>
   <Widget.bindMatrix>
    [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.2809672625735402e-05, -7.5482730608200654e-06, 0.0, 1.0]
@@ -71,19 +71,19 @@
    [0, 0]
   </Widget.innerBindPos>
   <Widget.innerBindSize>
-   [2000, 1000]
+   [1600, 900]
   </Widget.innerBindSize>
   <Widget.bindPos>
    [0, 0]
   </Widget.bindPos>
   <Widget.bindSize>
-   [2000, 1000]
+   [1600, 900]
   </Widget.bindSize>
   <Widget.framePos>
-   [0, 0]
+   [-115, -50]
   </Widget.framePos>
   <Widget.frameSize>
-   [2000, 1000]
+   [1600, 900]
   </Widget.frameSize>
   <Widget.bindMatrix>
    [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.2809672625735402e-05, -7.5482730608200654e-06, 0.0, 1.0]

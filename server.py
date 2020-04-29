@@ -9,6 +9,8 @@ if platform.system() == 'Linux':
 else:
     LOG_PATH = 'picroma-authentication.log'
 
+SERIALS_PATH = 'serials.txt'
+
 Activation = Enum('Activation', 'Logout Activate Login Validate Deactivate')
 SHEET_PLX = 'sheet.plx'
 
@@ -21,6 +23,14 @@ def Log(message):
     with open(LOG_PATH, 'a') as f:
         f.write(fmtstring)
         f.write('\n')
+
+def GetAllowedSerials():
+    try:
+        with open(SERIALS_PATH, 'r') as f:
+            lines = set(x for x in f.read().split('\n') if x)
+    except FileNotFoundError:
+        return None
+    return lines
     
 
 def AttemptActivation(encryptedSessionID, activationType):
@@ -31,10 +41,17 @@ def AttemptActivation(encryptedSessionID, activationType):
     Log(f'{ip}: Activation: {activationType.name}')
     Log(f'{ip}: Serial: {serial}')
     Log(f'{ip}: Decrypted machine ID: {machineID}')
-    with open(SHEET_PLX, 'rb') as f:
-        plx = f.read()
-    encrypted_plx = encrypt(plx, machineID)
-    return encrypted_plx
+
+    allowedSerials = GetAllowedSerials()
+
+    if allowedSerials is None or serial in allowedSerials:
+        with open(SHEET_PLX, 'rb') as f:
+            plx = f.read()
+        encrypted_plx = encrypt(plx, machineID)
+        return encrypted_plx
+    else:
+        return '5'
+
 
 
 @app.route('/LS/Activation/Logout/')

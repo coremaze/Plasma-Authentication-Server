@@ -22,7 +22,24 @@
   </GenericShape.wname>
  </GenericShape>
  
-
+ <!-- 
+ If the text for this TextShape is empty, Plasma will go into demo mode.
+ In demo mode, there are restrictions placed on your exports,
+ such as image type, image quality, and what type of PLX files you can save.
+ In demo mode, Plasma will save PLG files which are obfuscated using your serial,
+ and won't open in a client using another serial.
+ -->
+ <TextShape>
+  <TextShape.wname>	
+   id	
+  </TextShape.wname>	
+  <TextShape.string>	
+   <Attribute.frame>	
+    1234
+   </Attribute.frame>	
+   <Attribute.frame/>	
+  </TextShape.string>		
+ </TextShape>
  
  <Widget>
   <Widget.wname>
@@ -120,6 +137,9 @@
   <Node.child>
    3
   </Node.child>
+  <Node.child>
+   4
+  </Node.child>
   <Node.widget>
    0
   </Node.widget>
@@ -166,6 +186,27 @@
   </Node.shape>
   <Node.widget>
    1
+  </Node.widget>
+  <Node.flags>
+   0
+  </Node.flags>
+  <Node.transformation>
+   -1
+  </Node.transformation>
+  <Node.display>
+   -1
+  </Node.display>
+ </Node>
+ 
+  <Node>
+  <Node.wname>
+   id
+  </Node.wname>
+  <Node.shape>
+   3
+  </Node.shape>
+  <Node.widget>
+   -1
   </Node.widget>
   <Node.flags>
    0

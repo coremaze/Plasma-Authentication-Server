@@ -11,7 +11,7 @@ else:
 
 SERIALS_PATH = 'serials.txt'
 
-Activation = Enum('Activation', 'Logout Activate Login Validate Deactivate')
+Activation = Enum('Activation', 'Logout Activate Login Validate Deactivate Relogin')
 SHEET_PLX = 'sheet.plx'
 
 app = Flask(__name__)
@@ -69,6 +69,10 @@ def Login():
 @app.route('/LS/Activation/Validate/')
 def Validate():
     return AttemptActivation(request.args.get('id'), Activation.Validate)
+
+@app.route('/LS/Activation/Relogin/')
+def Relogin():
+    return '0'
 
 @app.route('/LS/Activation/Deactivate/')
 def Deactivate():

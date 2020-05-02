@@ -41,6 +41,20 @@
   </TextShape.string>		
  </TextShape>
  
+ <!--
+ This transformation is to move the id TextShape
+ waaaay out of view, so no one sees it.
+ -->
+ <Transformation>
+  <Transformation.wname/>
+  <Transformation.translation>
+   <Attribute.frame>
+    [-9999999, -9999999]
+   </Attribute.frame>
+  </Transformation.translation>
+ </Transformation>
+ 
+ 
  <Widget>
   <Widget.wname>
    sheet:frame
@@ -198,7 +212,7 @@
   </Node.display>
  </Node>
  
-  <Node>
+ <Node>
   <Node.wname>
    id
   </Node.wname>
@@ -212,7 +226,7 @@
    0
   </Node.flags>
   <Node.transformation>
-   -1
+   0
   </Node.transformation>
   <Node.display>
    -1

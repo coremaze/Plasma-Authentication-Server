@@ -3,6 +3,7 @@ from enum import Enum
 from encryption import *
 import platform
 from datetime import datetime
+import os
 
 if platform.system() == 'Linux':
     LOG_PATH = '/var/log/picroma-authentication.log'
@@ -13,6 +14,9 @@ SERIALS_PATH = 'serials.txt'
 
 Activation = Enum('Activation', 'Logout Activate Login Validate Deactivate Relogin')
 SHEET_PLX = 'sheet.plx'
+
+RELEASE_PATH = os.path.join('update', 'release.xml')
+TWEAKS_PATH = os.path.join('update', 'PlasmaTweaks.fip')
 
 app = Flask(__name__)
 
@@ -53,6 +57,7 @@ def AttemptActivation(encryptedSessionID, activationType):
         return '5'
 
 
+#Activation
 
 @app.route('/LS/Activation/Logout/')
 def Logout():
@@ -77,6 +82,31 @@ def Relogin():
 @app.route('/LS/Activation/Deactivate/')
 def Deactivate():
     return '0'
+
+
+#Update
+
+#This should be handled by a proper web server
+#But this is small enough to keep it self contained for now
+
+@app.route('/Download/Plasma/release.xml')
+def Release():
+    try:
+        with open(RELEASE_PATH, 'r') as f:
+            data = f.read()
+        return data
+    except:
+        return None
+
+@app.route('/Download/Plasma/tweaks/PlasmaTweaks.fip')
+def Tweaks():
+    try:
+        with open(TWEAKS_PATH, 'rb') as f:
+            data = f.read()
+        return data
+    except:
+        return None
+
 
 if __name__ == '__main__':
     app.run(port=80)

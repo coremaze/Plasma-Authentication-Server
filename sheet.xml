@@ -1,27 +1,608 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
  <PlasmaGraphics>
   1
  </PlasmaGraphics>
- 
- <GenericShape>
-  <GenericShape.wname>
-   sheetShape
-  </GenericShape.wname>
- </GenericShape>
- 
- <GenericShape>
-  <GenericShape.wname>
-   sheet:frameShape
-  </GenericShape.wname>
- </GenericShape>
- 
- <GenericShape>
-  <GenericShape.wname>
-   sheet:panelShape
-  </GenericShape.wname>
- </GenericShape>
- 
+ <SmoothMeshShape>
+  <SmoothMeshShape.wname>
+   sheet:frame
+  </SmoothMeshShape.wname>
+  <SmoothMeshShape.face>
+   [5, 6, 7, 12]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [8, 9, 10, 13]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [0, 1, 14, 11]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [2, 3, 4, 15]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [16, 2, 15, 17]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [12, 7, 19, 18]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [20, 5, 12, 21]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [21, 12, 18, 22]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [23, 13, 10, 24]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [25, 8, 13, 26]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [19, 25, 26, 18]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [26, 13, 23, 27]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [18, 26, 27, 22]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [29, 16, 17, 28]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [1, 29, 28, 14]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [31, 23, 24, 30]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [14, 31, 30, 11]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [31, 14, 28, 32]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [23, 31, 32, 27]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [33, 22, 27, 32]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [28, 17, 33, 32]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [34, 21, 22, 33]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [15, 34, 33, 17]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [35, 20, 21, 34]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [4, 35, 34, 15]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.vertexFlags>
+   [65539, 1, 1, 65539, 1, 1, 65539, 1, 1, 65539, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  </SmoothMeshShape.vertexFlags>
+  <SmoothMeshShape.vertexParameters>
+   [1084227584, 0, 0, 1084227584, 0, 0, 1084227584, 0, 0, 1084227584, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  </SmoothMeshShape.vertexParameters>
+  <SmoothMeshShape.vertexPositions>
+   <ArrayAttribute.size>
+    36
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [-249.99996948242188, 250.0, -249.99996948242188, 245.0, -250.0, -244.99993896484375, -250.0, -249.99993896484375, -245.0, -249.99993896484375, 244.99996948242188, -250.0, 249.99996948242188, -250.0, 249.99996948242188, -245.0, 250.0, 245.0, 250.0, 250.0, 245.0, 250.0, -244.99996948242188, 250.0, 245.00003051757812, -245.0, 245.0, 245.0, -244.99993896484375, 245.0, -244.99993896484375, -244.99993896484375, -250.0, -240.0, -244.99993896484375, -240.0, 245.00003051757812, -240.0, 249.99996948242188, -240.0, 240.0, -250.0, 240.00003051757812, -245.0, 240.00003051757812, -240.0, 240.0, 245.0, 240.00003051757812, 250.0, 250.0, 240.0, 245.0, 240.0, 240.0, 240.0, -244.99993896484375, 239.99996948242188, -249.99998474121094, 240.0, -239.99993896484375, 250.0, -239.99996948242188, 245.0, -240.0, 239.99996948242188, -239.99996948242188, -240.0, -239.99990844726562, -244.99993896484375, -239.99996948242188, -249.99993896484375]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [6.326201153551388e-39, 6.326800909294119e-39, 6.326201153551388e-39, 6.326800909294119e-39, 6.326201153551388e-39, 6.326800909294119e-39, 9.107358439904606e-37, 8.169714436807448e-37, 99.0, 0.0, 99.0, 0.0, 99.0, 0.0, 99.0, 0.0, 99.0, 0.0, 99.0, 0.0, 99.0, 0.0, 99.0, 0.0, 98.010009765625, 6.326722436580117e-41, 98.98999786376953, 6.389920997321166e-43, 0.9999058842658997, 6.262900298022443e-39, 0.9900127649307251, 6.263532283629853e-39, 6.326201153551388e-39, 6.326800909294119e-39, 0.9901137351989746, 6.263525277137532e-39, 98.02001190185547, 6.262823226606905e-41, 99.00000762939453, 0.0, 99.0, 0.0, 97.02001190185547, 1.2653444873160233e-40, 97.0299072265625, 1.2590246312419184e-40, 97.99009704589844, 6.45396033714081e-41, 99.0, 0.0, 99.0, 0.0, 98.97999572753906, 1.2779841994642332e-42, 97.98019409179688, 6.517158897881859e-41, 0.9998049139976501, 6.262907304514764e-39, 6.326201153551388e-39, 6.326800909294119e-39, 99.0, 0.0, 1.9997971057891846, 6.198999686750767e-39, 1.9995912313461304, 6.19901369973541e-39, 1.980207085609436, 6.200251046279409e-39, 1.9800186157226562, 6.200263657965588e-39, 99.0, 0.0]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexPositions>
+  <SmoothMeshShape.vertexTexCoords>
+   <ArrayAttribute.size>
+    36
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [6.103515914901436e-08, 1.0, 6.103515914901436e-08, 0.9900000095367432, 0.0, 0.010000121779739857, 0.0, 1.2207031829802872e-07, 0.009999999776482582, 1.2207031829802872e-07, 0.9899999499320984, 0.0, 0.9999999403953552, 0.0, 0.9999999403953552, 0.009999999776482582, 1.0, 0.9900000095367432, 1.0, 1.0, 0.9900000095367432, 1.0, 0.010000061243772507, 1.0, 0.9900000691413879, 0.010000000707805157, 0.9900000095367432, 0.9900000095367432, 0.010000130161643028, 0.9900000095367432, 0.010000129230320454, 0.010000120848417282, 6.228002003005884e-10, 0.019999999552965164, 0.010000129230320454, 0.019999999552965164, 0.9900000691413879, 0.019999995827674866, 0.9999999403953552, 0.02000000886619091, 0.9800000190734863, 1.2456076170508368e-09, 0.9800000786781311, 0.010000002570450306, 0.9800000786781311, 0.019999995827674866, 0.9800000190734863, 0.9900000095367432, 0.9800000786781311, 1.0, 1.0, 0.9800000190734863, 0.9900000095367432, 0.9800000190734863, 0.9800000190734863, 0.9800000190734863, 0.010000130161643028, 0.9799999594688416, 6.041235423026592e-08, 0.9800000190734863, 0.020000120624899864, 1.0, 0.020000053569674492, 0.9900000095367432, 0.020000014454126358, 0.9799999594688416, 0.020000051707029343, 0.019999999552965164, 0.020000187680125237, 0.010000119917094707, 0.020000044256448746, 1.2082469424967712e-07]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [6.326201153551388e-39, 6.326800909294119e-39, 6.326201153551388e-39, 6.326800909294119e-39, 6.326201153551388e-39, 6.326800909294119e-39, 1.505337868808613e-39, 1.4350050397739643e-24, 1.505337868808613e-39, 9.109671070183618e-25, 1.505337868808613e-39, 9.109671070183618e-25, 1.505337868808613e-39, 9.109671070183618e-25, 1.505337868808613e-39, 9.109671070183618e-25, 1.505337868808613e-39, 9.109671070183618e-25, 1.505337868808613e-39, 9.098627017510524e-25, 1.505337868808613e-39, 9.098627017510524e-25, 1.505337868808613e-39, 9.098627017510524e-25, 1.5535467398767798e-39, 9.018575385000958e-25, 1.5058241193757338e-39, 9.097818435082672e-25, 6.277510235811493e-39, 9.189778878217801e-27, 6.277992282483221e-39, 9.109788844651577e-27, 6.326201153551388e-39, 6.326800909294119e-39, 6.277986677289364e-39, 9.11060466857602e-27, 1.5530590880111948e-39, 9.01938396742881e-25, 1.505337868808613e-39, 9.109671070183618e-25, 1.505337868808613e-39, 9.109671070183618e-25, 1.6017556109449465e-39, 8.927478713742167e-25, 1.6012721629747544e-39, 8.928279407560967e-25, 1.5545150371156282e-39, 9.005921070005082e-25, 1.505337868808613e-39, 9.098627017510524e-25, 1.505337868808613e-39, 9.109671070183618e-25, 1.506311771241319e-39, 9.09700985265482e-25, 1.554997083787356e-39, 9.005120376186283e-25, 6.277514439706886e-39, 9.188963054293358e-27, 6.326201153551388e-39, 6.326800909294119e-39, 1.505337868808613e-39, 9.098627017510524e-25, 6.228819318071599e-39, 1.8379423711711472e-26, 6.228829127160849e-39, 1.8377755086007655e-26, 6.22977220102734e-39, 1.8221022907133422e-26, 6.229783411415054e-39, 1.8219512978057023e-26, 1.505337868808613e-39, 9.109671070183618e-25]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexTexCoords>
+  <SmoothMeshShape.vertexColors>
+   <ArrayAttribute.size>
+    36
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.5310344696044922, 0.0, 0.0, 0.0, 0.0]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [4.0372022871205296e-34, 5.605193857299268e-45, 6.785574806279862e-30, 6.326206758745245e-39, 4.0372022871205296e-34, 5.605193857299268e-45, 6.785574806279862e-30, 6.326206758745245e-39, 4.0372022871205296e-34, 5.605193857299268e-45, 6.785574806279862e-30, 6.326206758745245e-39, 5.225778285098681e-40, 2.0168438139440965e-37, 9.107358439904606e-37, 8.169714436807448e-37, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 4.03766023056184e-36, 237.60003662109375, 98.010009765625, 6.326161917194387e-41, 4.130172520246937e-38, 239.9757537841797, 98.98999786376953, 6.389920997321166e-43, 3.99642640847142e-34, 2.4240143299102783, 0.9999058842658997, 6.262311752667426e-39, 3.9968295662995535e-34, 2.400031089782715, 0.9900127649307251, 6.262943738274837e-39, 4.0372022871205296e-34, 5.605193857299268e-45, 6.785574806279862e-30, 6.326206758745245e-39, 3.996825433702226e-34, 2.400275707244873, 0.9901137351989746, 6.26293813308098e-39, 3.996881324211216e-36, 237.62428283691406, 98.02001190185547, 6.262262707221175e-41, 5.225778285098681e-40, 240.0, 99.00000762939453, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 8.074864153502145e-36, 235.20004272460938, 97.02001190185547, 1.2652323834388773e-40, 8.034488103644433e-36, 235.22402954101562, 97.0299072265625, 1.2589125273647724e-40, 4.118864691842323e-36, 237.5517578125, 97.99009704589844, 6.453259687908648e-41, 5.225778285098681e-40, 240.00001525878906, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 8.208087818162273e-38, 239.95150756835938, 98.97999572753906, 1.2779841994642332e-42, 4.15923213212227e-36, 237.5277557373047, 97.98019409179688, 6.516458248649697e-41, 3.996430541068747e-34, 2.423769474029541, 0.9998049139976501, 6.262317357861284e-39, 4.0372022871205296e-34, 5.605193857299268e-45, 6.785574806279862e-30, 6.326206758745245e-39, 5.225778285098681e-40, 240.0, 99.0, 0.0, 3.955650988999791e-34, 4.84799337387085, 1.9997971057891846, 6.198418147888072e-39, 3.955659713371926e-34, 4.847494125366211, 1.9995912313461304, 6.198429358275787e-39, 3.956449498638885e-34, 4.800501823425293, 1.980207085609436, 6.199669507416714e-39, 3.956457304656058e-34, 4.800045013427734, 1.9800186157226562, 6.199682119102893e-39, 5.225778285098681e-40, 240.0, 99.0, 0.0]
+   </ArrayAttribute.frame>
+   <!-- manually added, at least one Attribute.sequence is needed for the SmoothMeshShape to not be converted to StaticMeshShape. -->
+   <Attribute.sequence>
+    <Attribute.sequence.wname>
+     button:enter
+    </Attribute.sequence.wname>
+    <Attribute.sequence.key>
+     <Attribute.sequence.key.frame>
+      4
+     </Attribute.sequence.key.frame>
+     <Attribute.sequence.key.time>
+      400
+     </Attribute.sequence.key.time>
+     <Attribute.sequence.key.smoothness>
+      0.0
+     </Attribute.sequence.key.smoothness>
+    </Attribute.sequence.key>
+   </Attribute.sequence>
+   <!-- manually added -->
+  </SmoothMeshShape.vertexColors>
+  <SmoothMeshShape.strokeColors>
+   <ArrayAttribute.size>
+    36
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [4.0372243276396075e-34, 5.605193857299268e-45, 6.786441474754836e-30, 6.326206758745245e-39, 4.0372243276396075e-34, 5.605193857299268e-45, 6.786441474754836e-30, 6.326206758745245e-39, 4.0372243276396075e-34, 5.605193857299268e-45, 6.786441474754836e-30, 6.326206758745245e-39, 5.225778285098681e-40, 2.0168438139440965e-37, 9.107358439904606e-37, 8.169714436807448e-37, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 4.037682113238659e-36, 237.60003662109375, 98.010009765625, 6.326161917194387e-41, 4.130194941022366e-38, 239.9757537841797, 98.98999786376953, 6.389920997321166e-43, 3.996447989813017e-34, 2.4240143299102783, 0.9999058842658997, 6.262311752667426e-39, 3.996851606818631e-34, 2.400031089782715, 0.9900127649307251, 6.262943738274837e-39, 4.0372243276396075e-34, 5.605193857299268e-45, 6.786441474754836e-30, 6.326206758745245e-39, 3.996847474221304e-34, 2.400275707244873, 0.9901137351989746, 6.26293813308098e-39, 3.996902848155628e-36, 237.62428283691406, 98.02001190185547, 6.262262707221175e-41, 5.225778285098681e-40, 240.0, 99.00000762939453, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 8.074908636320596e-36, 235.20004272460938, 97.02001190185547, 1.2652323834388773e-40, 8.034531868998071e-36, 235.22402954101562, 97.0299072265625, 1.2589125273647724e-40, 4.118886574519142e-36, 237.5517578125, 97.99009704589844, 6.453259687908648e-41, 5.225778285098681e-40, 240.00001525878906, 99.0, 0.0, 5.225778285098681e-40, 240.0, 99.0, 0.0, 8.208132659713131e-38, 239.95150756835938, 98.97999572753906, 1.2779841994642332e-42, 4.159254014799089e-36, 237.5277557373047, 97.98019409179688, 6.516458248649697e-41, 3.996452122410344e-34, 2.423769474029541, 0.9998049139976501, 6.262317357861284e-39, 4.0372243276396075e-34, 5.605193857299268e-45, 6.786441474754836e-30, 6.326206758745245e-39, 5.225778285098681e-40, 240.0, 99.0, 0.0, 3.955672570341388e-34, 4.84799337387085, 1.9997971057891846, 6.198418147888072e-39, 3.955680835536042e-34, 4.847494125366211, 1.9995912313461304, 6.198429358275787e-39, 3.956471539157963e-34, 4.800501823425293, 1.980207085609436, 6.199669507416714e-39, 3.956479345175136e-34, 4.800045013427734, 1.9800186157226562, 6.199682119102893e-39, 5.225778285098681e-40, 240.0, 99.0, 0.0]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.strokeColors>
+  <SmoothMeshShape.extrusionFrontColors>
+   <ArrayAttribute.size>
+    36
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [4.037268408677763e-34, 5.605193857299268e-45, 6.786549808314208e-30, 6.326206758745245e-39, 4.037268408677763e-34, 5.605193857299268e-45, 6.786549808314208e-30, 6.326206758745245e-39, 4.037268408677763e-34, 5.605193857299268e-45, 6.786549808314208e-30, 6.326206758745245e-39, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 1.4350050397739643e-24, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.109671070183618e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.109671070183618e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.109671070183618e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.109671070183618e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.109671070183618e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.098627017510524e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.098627017510524e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.098627017510524e-25, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.extrusionFrontColors>
+  <SmoothMeshShape.extrusionBackColors>
+   <ArrayAttribute.size>
+    36
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [4.037246368158685e-34, 5.605193857299268e-45, 6.78665814187358e-30, 6.326206758745245e-39, 4.037246368158685e-34, 5.605193857299268e-45, 6.78665814187358e-30, 6.326206758745245e-39, 4.037246368158685e-34, 5.605193857299268e-45, 6.78665814187358e-30, 6.326206758745245e-39, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 1.4350050397739643e-24, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.109671070183618e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.109671070183618e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.109671070183618e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.109671070183618e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.109671070183618e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.098627017510524e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.098627017510524e-25, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 9.098627017510524e-25, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.extrusionBackColors>
+  <SmoothMeshShape.strokeWidths>
+   <ArrayAttribute.size>
+    36
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.strokeWidths>
+  <SmoothMeshShape.texture>
+   <Attribute.frame>
+    [-1]
+   </Attribute.frame>
+   <Attribute.frame>
+    [-1]
+   </Attribute.frame>
+  </SmoothMeshShape.texture>
+  <SmoothMeshShape.strokeTexture>
+   <Attribute.frame>
+    [-1]
+   </Attribute.frame>
+   <Attribute.frame>
+    [-1]
+   </Attribute.frame>
+  </SmoothMeshShape.strokeTexture>
+  <SmoothMeshShape.textureTranslation>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+  </SmoothMeshShape.textureTranslation>
+  <SmoothMeshShape.textureRotation>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0]
+   </Attribute.frame>
+  </SmoothMeshShape.textureRotation>
+  <SmoothMeshShape.textureDeformation>
+   <Attribute.frame>
+    [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [3.618687727319409e-34, 2.1476430304739636e-37, 7.053873951411004e+33, 6.327344613098277e-39, 0.0, 6.327809844188433e-39, 7.232865844781218e+33, 7.505116354184785e-39, nan, 7.053873951411004e+33, 7.053456765617765e+33, 0.0, 6.327910737677864e-39, 5.179199124144524e-42, 2.1453561113801855e-37, 1.1737005739935815e-34]
+   </Attribute.frame>
+  </SmoothMeshShape.textureDeformation>
+  <SmoothMeshShape.texturePivot>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+  </SmoothMeshShape.texturePivot>
+  <SmoothMeshShape.textureOpacity>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.textureOpacity>
+  <SmoothMeshShape.textureBrightness>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.textureBrightness>
+  <SmoothMeshShape.textureContrast>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.textureContrast>
+  <SmoothMeshShape.textureSaturation>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.textureSaturation>
+  <SmoothMeshShape.strokeTextureOpacity>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.strokeTextureOpacity>
+  <SmoothMeshShape.strokeTextureBrightness>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.strokeTextureBrightness>
+  <SmoothMeshShape.strokeTextureContrast>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.strokeTextureContrast>
+  <SmoothMeshShape.strokeTextureSaturation>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.strokeTextureSaturation>
+  <SmoothMeshShape.strokeTextureStretch>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.strokeTextureStretch>
+  <SmoothMeshShape.extrusionMatrix>
+   <Attribute.frame>
+    [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [3.618687727319409e-34, 2.1476430304739636e-37, 7.053873951411004e+33, 6.327344613098277e-39, 0.0, 6.327809844188433e-39, 7.232865844781218e+33, 7.505116354184785e-39, nan, 7.053873951411004e+33, 7.053456765617765e+33, 0.0, 6.327910737677864e-39, 5.179199124144524e-42, 2.1453561113801855e-37, 1.1737005739935815e-34]
+   </Attribute.frame>
+  </SmoothMeshShape.extrusionMatrix>
+  <SmoothMeshShape.subdivisions>
+   4
+  </SmoothMeshShape.subdivisions>
+  <SmoothMeshShape.flags>
+   0
+  </SmoothMeshShape.flags>
+  <SmoothMeshShape.strokeJointType>
+   1
+  </SmoothMeshShape.strokeJointType>
+  <SmoothMeshShape.strokeCapType>
+   1
+  </SmoothMeshShape.strokeCapType>
+  <SmoothMeshShape.strokeAlignment>
+   0
+  </SmoothMeshShape.strokeAlignment>
+  <SmoothMeshShape.strokePattern>
+   0
+  </SmoothMeshShape.strokePattern>
+  <SmoothMeshShape.strokeDash>
+   1.0
+  </SmoothMeshShape.strokeDash>
+  <SmoothMeshShape.strokeGap>
+   2.0
+  </SmoothMeshShape.strokeGap>
+  <SmoothMeshShape.smoothWeight>
+   0.5857864022254944
+  </SmoothMeshShape.smoothWeight>
+ </SmoothMeshShape>
+ <SmoothMeshShape>
+  <SmoothMeshShape.wname>
+   sheet:panel
+  </SmoothMeshShape.wname>
+  <SmoothMeshShape.face>
+   [0, 1, 2, 3]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.vertexFlags>
+   [1, 1, 1, 1]
+  </SmoothMeshShape.vertexFlags>
+  <SmoothMeshShape.vertexParameters>
+   [0, 0, 0, 0]
+  </SmoothMeshShape.vertexParameters>
+  <SmoothMeshShape.vertexPositions>
+   <ArrayAttribute.size>
+    4
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [-244.9999542236328, 245.0, -245.0, -244.99993896484375, 244.9999542236328, -245.0, 245.0, 245.0]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [6.326201153551388e-39, 6.326800909294119e-39, 6.326201153551388e-39, 6.326800909294119e-39, 6.326201153551388e-39, 6.326800909294119e-39, 9.107358439904606e-37, 8.169714436807448e-37]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexPositions>
+  <SmoothMeshShape.vertexTexCoords>
+   <ArrayAttribute.size>
+    4
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [9.342115703248055e-08, 1.0, 0.0, 1.245615379730225e-07, 0.9999998807907104, 0.0, 1.0, 1.0]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [6.326201153551388e-39, 6.326800909294119e-39, 6.326201153551388e-39, 6.326800909294119e-39, 6.326201153551388e-39, 6.326800909294119e-39, 1.505337868808613e-39, 1.4350050397739643e-24]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexTexCoords>
+  <SmoothMeshShape.vertexColors>
+   <ArrayAttribute.size>
+    4
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [4.0372022871205296e-34, 5.605193857299268e-45, 6.785574806279862e-30, 6.326206758745245e-39, 4.0372022871205296e-34, 5.605193857299268e-45, 6.785574806279862e-30, 6.326206758745245e-39, 4.0372022871205296e-34, 5.605193857299268e-45, 6.785574806279862e-30, 6.326206758745245e-39, 5.225778285098681e-40, 2.0168438139440965e-37, 9.107358439904606e-37, 8.169714436807448e-37]
+   </ArrayAttribute.frame>
+   <!-- manually added, at least one Attribute.sequence is needed for the SmoothMeshShape to not be converted to StaticMeshShape. -->
+   <Attribute.sequence>
+    <Attribute.sequence.wname>
+     button:enter
+    </Attribute.sequence.wname>
+    <Attribute.sequence.key>
+     <Attribute.sequence.key.frame>
+      4
+     </Attribute.sequence.key.frame>
+     <Attribute.sequence.key.time>
+      400
+     </Attribute.sequence.key.time>
+     <Attribute.sequence.key.smoothness>
+      0.0
+     </Attribute.sequence.key.smoothness>
+    </Attribute.sequence.key>
+   </Attribute.sequence>
+   <!-- manually added -->
+  </SmoothMeshShape.vertexColors>
+  <SmoothMeshShape.strokeColors>
+   <ArrayAttribute.size>
+    4
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [4.0372243276396075e-34, 5.605193857299268e-45, 6.786441474754836e-30, 6.326206758745245e-39, 4.0372243276396075e-34, 5.605193857299268e-45, 6.786441474754836e-30, 6.326206758745245e-39, 4.0372243276396075e-34, 5.605193857299268e-45, 6.786441474754836e-30, 6.326206758745245e-39, 5.225778285098681e-40, 2.0168438139440965e-37, 9.107358439904606e-37, 8.169714436807448e-37]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.strokeColors>
+  <SmoothMeshShape.extrusionFrontColors>
+   <ArrayAttribute.size>
+    4
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [4.037268408677763e-34, 5.605193857299268e-45, 6.786549808314208e-30, 6.326206758745245e-39, 4.037268408677763e-34, 5.605193857299268e-45, 6.786549808314208e-30, 6.326206758745245e-39, 4.037268408677763e-34, 5.605193857299268e-45, 6.786549808314208e-30, 6.326206758745245e-39, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 1.4350050397739643e-24]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.extrusionFrontColors>
+  <SmoothMeshShape.extrusionBackColors>
+   <ArrayAttribute.size>
+    4
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0, 0.5, 0.5, 0.5, 1.0]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [4.037246368158685e-34, 5.605193857299268e-45, 6.78665814187358e-30, 6.326206758745245e-39, 4.037246368158685e-34, 5.605193857299268e-45, 6.78665814187358e-30, 6.326206758745245e-39, 4.037246368158685e-34, 5.605193857299268e-45, 6.78665814187358e-30, 6.326206758745245e-39, 5.225778285098681e-40, 6.326262810683818e-39, 1.505337868808613e-39, 1.4350050397739643e-24]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.extrusionBackColors>
+  <SmoothMeshShape.strokeWidths>
+   <ArrayAttribute.size>
+    4
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [10.0, 10.0, 10.0, 10.0]
+   </ArrayAttribute.frame>
+   <ArrayAttribute.frame>
+    [0.0, 0.0, 0.0, 0.0]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.strokeWidths>
+  <SmoothMeshShape.texture>
+   <Attribute.frame>
+    [-1]
+   </Attribute.frame>
+   <Attribute.frame>
+    [-1]
+   </Attribute.frame>
+  </SmoothMeshShape.texture>
+  <SmoothMeshShape.strokeTexture>
+   <Attribute.frame>
+    [-1]
+   </Attribute.frame>
+   <Attribute.frame>
+    [-1]
+   </Attribute.frame>
+  </SmoothMeshShape.strokeTexture>
+  <SmoothMeshShape.textureTranslation>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+  </SmoothMeshShape.textureTranslation>
+  <SmoothMeshShape.textureRotation>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0]
+   </Attribute.frame>
+  </SmoothMeshShape.textureRotation>
+  <SmoothMeshShape.textureDeformation>
+   <Attribute.frame>
+    [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [3.618687727319409e-34, 2.1476430304739636e-37, 7.053873951411004e+33, 6.327344613098277e-39, 0.0, 6.327809844188433e-39, 7.232865844781218e+33, 7.505116354184785e-39, nan, 7.053873951411004e+33, 7.053456765617765e+33, 0.0, 6.327910737677864e-39, 5.179199124144524e-42, 2.1453561113801855e-37, 1.1737005739935815e-34]
+   </Attribute.frame>
+  </SmoothMeshShape.textureDeformation>
+  <SmoothMeshShape.texturePivot>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+  </SmoothMeshShape.texturePivot>
+  <SmoothMeshShape.textureOpacity>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.textureOpacity>
+  <SmoothMeshShape.textureBrightness>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.textureBrightness>
+  <SmoothMeshShape.textureContrast>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.textureContrast>
+  <SmoothMeshShape.textureSaturation>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.textureSaturation>
+  <SmoothMeshShape.strokeTextureOpacity>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.strokeTextureOpacity>
+  <SmoothMeshShape.strokeTextureBrightness>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.strokeTextureBrightness>
+  <SmoothMeshShape.strokeTextureContrast>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.strokeTextureContrast>
+  <SmoothMeshShape.strokeTextureSaturation>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.strokeTextureSaturation>
+  <SmoothMeshShape.strokeTextureStretch>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0]
+   </Attribute.frame>
+  </SmoothMeshShape.strokeTextureStretch>
+  <SmoothMeshShape.extrusionMatrix>
+   <Attribute.frame>
+    [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [3.618687727319409e-34, 2.1476430304739636e-37, 7.053873951411004e+33, 6.327344613098277e-39, 0.0, 6.327809844188433e-39, 7.232865844781218e+33, 7.505116354184785e-39, nan, 7.053873951411004e+33, 7.053456765617765e+33, 0.0, 6.327910737677864e-39, 5.179199124144524e-42, 2.1453561113801855e-37, 1.1737005739935815e-34]
+   </Attribute.frame>
+  </SmoothMeshShape.extrusionMatrix>
+  <SmoothMeshShape.subdivisions>
+   4
+  </SmoothMeshShape.subdivisions>
+  <SmoothMeshShape.flags>
+   0
+  </SmoothMeshShape.flags>
+  <SmoothMeshShape.strokeJointType>
+   1
+  </SmoothMeshShape.strokeJointType>
+  <SmoothMeshShape.strokeCapType>
+   1
+  </SmoothMeshShape.strokeCapType>
+  <SmoothMeshShape.strokeAlignment>
+   0
+  </SmoothMeshShape.strokeAlignment>
+  <SmoothMeshShape.strokePattern>
+   0
+  </SmoothMeshShape.strokePattern>
+  <SmoothMeshShape.strokeDash>
+   1.0
+  </SmoothMeshShape.strokeDash>
+  <SmoothMeshShape.strokeGap>
+   2.0
+  </SmoothMeshShape.strokeGap>
+  <SmoothMeshShape.smoothWeight>
+   0.5857864022254944
+  </SmoothMeshShape.smoothWeight>
+ </SmoothMeshShape>
  <!-- 
  If the text for this TextShape is empty, Plasma will go into demo mode.
  In demo mode, there are restrictions placed on your exports,
@@ -30,56 +611,410 @@
  and won't open in a client using another serial.
  -->
  <TextShape>
-  <TextShape.wname>	
-   id	
-  </TextShape.wname>	
-  <TextShape.string>	
-   <Attribute.frame>	
-    1234
-   </Attribute.frame>	
-   <Attribute.frame/>	
-  </TextShape.string>		
+  <TextShape.wname>
+   id
+  </TextShape.wname>
+  <TextShape.string>
+   <Attribute.frame>
+    id
+   </Attribute.frame>
+   <Attribute.frame/>
+  </TextShape.string>
+  <TextShape.color>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+  </TextShape.color>
+  <TextShape.strokeColor>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+  </TextShape.strokeColor>
+  <TextShape.extrusionColor>
+   <Attribute.frame>
+    [0.5, 0.5, 0.5, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+  </TextShape.extrusionColor>
+  <TextShape.flags>
+   0
+  </TextShape.flags>
+  <TextShape.wfontName>
+   arial.ttf
+  </TextShape.wfontName>
+  <TextShape.pixelSize>
+   4.0
+  </TextShape.pixelSize>
+  <TextShape.strokeRadius>
+   0.0
+  </TextShape.strokeRadius>
+  <TextShape.spacing>
+   0.0
+  </TextShape.spacing>
+  <TextShape.lineSpacing>
+   0.0
+  </TextShape.lineSpacing>
+  <TextShape.wrapWidth>
+   200.0
+  </TextShape.wrapWidth>
  </TextShape>
- 
- <!--
- This transformation is to move the id TextShape
- waaaay out of view, so no one sees it.
- -->
  <Transformation>
   <Transformation.wname/>
   <Transformation.translation>
    <Attribute.frame>
-    [-9999999, -9999999]
+    [393.82159423828125, 363.1785583496094]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0]
    </Attribute.frame>
   </Transformation.translation>
+  <Transformation.rotation>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0]
+   </Attribute.frame>
+  </Transformation.rotation>
+  <Transformation.pivot>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+  </Transformation.pivot>
+  <Transformation.deformation>
+   <Attribute.frame>
+    [4.050002574920654, 0.0, 0.0, 0.0, 0.0, 4.050002574920654, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [6.326268415877675e-39, 7.232865844781218e+33, 7.505116354184785e-39, nan, 7.053873951411004e+33, 7.053456765617765e+33, 4.518038482706789e-39, 0.0, 9.304621803116785e-43, 2.1485344805050285e-37, 5.402742932687045e+24, 6.325876052307664e-39, 7.099817360096483e-30, 6.326369309367107e-39, 7.232865844781218e+33, 7.505116354184785e-39]
+   </Attribute.frame>
+  </Transformation.deformation>
  </Transformation>
- 
- 
+ <Transformation>
+  <Transformation.wname/>
+  <Transformation.translation>
+   <Attribute.frame>
+    [249.99996948242188, 250.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.3366923667490482e-05, -1.1920783435925841e-06]
+   </Attribute.frame>
+  </Transformation.translation>
+  <Transformation.rotation>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0]
+   </Attribute.frame>
+  </Transformation.rotation>
+  <Transformation.pivot>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+  </Transformation.pivot>
+  <Transformation.deformation>
+   <Attribute.frame>
+    [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [nan, nan, nan, nan, 7.053873951411004e+33, 7.053456765617765e+33, 4.518038482706789e-39, 0.0, 9.304621803116785e-43, 3.618687727319409e-34, 6.327439901393851e-39, 6.327439901393851e-39, 2.98623008590708e-39, 4.037125145303757e-34, 4.037554935425776e-34, 6.327451111781565e-39]
+   </Attribute.frame>
+  </Transformation.deformation>
+ </Transformation>
+ <Transformation>
+  <Transformation.wname/>
+  <Transformation.translation>
+   <Attribute.frame>
+    [0.0, 3.0517578125e-05]
+   </Attribute.frame>
+   <Attribute.frame>
+    [-249.99998474121094, -249.99996948242188]
+   </Attribute.frame>
+  </Transformation.translation>
+  <Transformation.rotation>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0]
+   </Attribute.frame>
+  </Transformation.rotation>
+  <Transformation.pivot>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+  </Transformation.pivot>
+  <Transformation.deformation>
+   <Attribute.frame>
+    [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [nan, nan, nan, nan, 7.053873951411004e+33, 7.053456765617765e+33, 4.518038482706789e-39, 0.0, 9.304621803116785e-43, 3.618687727319409e-34, 6.327439901393851e-39, 6.327439901393851e-39, 2.98623008590708e-39, 4.037125145303757e-34, 4.037554935425776e-34, 6.327451111781565e-39]
+   </Attribute.frame>
+  </Transformation.deformation>
+ </Transformation>
+ <Transformation>
+  <Transformation.wname/>
+  <Transformation.translation>
+   <Attribute.frame>
+    [-249.99996948242188, -241.99996948242188]
+   </Attribute.frame>
+   <Attribute.frame>
+    [-249.99996948242188, -249.99996948242188]
+   </Attribute.frame>
+  </Transformation.translation>
+  <Transformation.rotation>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0, 0.0]
+   </Attribute.frame>
+  </Transformation.rotation>
+  <Transformation.pivot>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0, 0.0]
+   </Attribute.frame>
+  </Transformation.pivot>
+  <Transformation.deformation>
+   <Attribute.frame>
+    [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [nan, nan, nan, nan, 7.053873951411004e+33, 7.053456765617765e+33, 4.518038482706789e-39, 0.0, 9.304621803116785e-43, 2.9580401647002574e-39, 7.401724258563159e-34, 2.4097634191856894e-37, 0.0, 4.0, 0.0, 0.0]
+   </Attribute.frame>
+  </Transformation.deformation>
+ </Transformation>
+ <Display>
+  <Display.wname/>
+  <Display.visibility>
+   <Attribute.frame>
+    [1]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1]
+   </Attribute.frame>
+  </Display.visibility>
+  <Display.clipping>
+   <Attribute.frame>
+    [0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0]
+   </Attribute.frame>
+  </Display.clipping>
+  <Display.fillColor>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+  </Display.fillColor>
+  <Display.strokeColor>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+  </Display.strokeColor>
+  <Display.blurRadius>
+   <Attribute.frame>
+    [0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0]
+   </Attribute.frame>
+  </Display.blurRadius>
+  <Display.flags>
+   0
+  </Display.flags>
+ </Display>
+ <Display>
+  <Display.wname/>
+  <Display.visibility>
+   <Attribute.frame>
+    [1]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1]
+   </Attribute.frame>
+  </Display.visibility>
+  <Display.clipping>
+   <Attribute.frame>
+    [0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0]
+   </Attribute.frame>
+  </Display.clipping>
+  <Display.fillColor>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+  </Display.fillColor>
+  <Display.strokeColor>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+  </Display.strokeColor>
+  <Display.blurRadius>
+   <Attribute.frame>
+    [0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0]
+   </Attribute.frame>
+  </Display.blurRadius>
+  <Display.flags>
+   0
+  </Display.flags>
+ </Display>
+ <Display>
+  <Display.wname/>
+  <Display.visibility>
+   <Attribute.frame>
+    [1]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1]
+   </Attribute.frame>
+  </Display.visibility>
+  <Display.clipping>
+   <Attribute.frame>
+    [0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0]
+   </Attribute.frame>
+  </Display.clipping>
+  <Display.fillColor>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+  </Display.fillColor>
+  <Display.strokeColor>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+  </Display.strokeColor>
+  <Display.blurRadius>
+   <Attribute.frame>
+    [0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0]
+   </Attribute.frame>
+  </Display.blurRadius>
+  <Display.flags>
+   0
+  </Display.flags>
+ </Display>
+ <Display>
+  <Display.wname/>
+  <Display.visibility>
+   <Attribute.frame>
+    [1]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1]
+   </Attribute.frame>
+  </Display.visibility>
+  <Display.clipping>
+   <Attribute.frame>
+    [0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0]
+   </Attribute.frame>
+  </Display.clipping>
+  <Display.fillColor>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+  </Display.fillColor>
+  <Display.strokeColor>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [1.0, 1.0, 1.0, 1.0]
+   </Attribute.frame>
+  </Display.strokeColor>
+  <Display.blurRadius>
+   <Attribute.frame>
+    [0.0]
+   </Attribute.frame>
+   <Attribute.frame>
+    [0.0]
+   </Attribute.frame>
+  </Display.blurRadius>
+  <Display.flags>
+   0
+  </Display.flags>
+ </Display>
  <Widget>
   <Widget.wname>
    sheet:frame
   </Widget.wname>
   <Widget.caption/>
   <Widget.innerBindPos>
-   [0, 0]
+   [166.6666259765625, 166.6666717529297]
   </Widget.innerBindPos>
   <Widget.innerBindSize>
-   [1600, 900]
+   [166.66665649414062, 166.6666717529297]
   </Widget.innerBindSize>
   <Widget.bindPos>
-   [0, 0]
+   [-3.605008896556683e-05, 1.5789141798450146e-06]
   </Widget.bindPos>
   <Widget.bindSize>
-   [1600, 900]
+   [499.9999694824219, 500.0]
   </Widget.bindSize>
   <Widget.framePos>
-   [0, 0]
+   [-3.605008896556683e-05, 1.5789141798450146e-06]
   </Widget.framePos>
   <Widget.frameSize>
-   [1600, 900]
+   [499.9999694824219, 500.0]
   </Widget.frameSize>
   <Widget.bindMatrix>
-   [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.2809672625735402e-05, -7.5482730608200654e-06, 0.0, 1.0]
+   [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 249.99996948242188, 250.0, 0.0, 1.0]
   </Widget.bindMatrix>
   <Widget.horizontalAlignment>
    0.0
@@ -88,36 +1023,34 @@
    0.0
   </Widget.verticalAlignment>
   <Widget.flags>
-   0
+   12<!-- Manually changed to enable resizing horizontally and vertically -->
   </Widget.flags>
  </Widget>
- 
- 
-  <Widget>
+ <Widget>
   <Widget.wname>
    sheet:panel
   </Widget.wname>
   <Widget.caption/>
   <Widget.innerBindPos>
-   [0, 0]
+   [168.33331298828125, 168.3333740234375]
   </Widget.innerBindPos>
   <Widget.innerBindSize>
-   [1600, 900]
+   [163.33334350585938, 163.33334350585938]
   </Widget.innerBindSize>
   <Widget.bindPos>
-   [0, 0]
+   [4.999975681304932, 5.000028610229492]
   </Widget.bindPos>
   <Widget.bindSize>
-   [1600, 900]
+   [490.0, 490.0]
   </Widget.bindSize>
   <Widget.framePos>
-   [-115, -50]
+   [4.999975681304932, 5.000028610229492]
   </Widget.framePos>
   <Widget.frameSize>
-   [1600, 900]
+   [490.0, 490.0]
   </Widget.frameSize>
   <Widget.bindMatrix>
-   [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.2809672625735402e-05, -7.5482730608200654e-06, 0.0, 1.0]
+   [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 249.99996948242188, 250.00003051757812, 0.0, 1.0]
   </Widget.bindMatrix>
   <Widget.horizontalAlignment>
    0.0
@@ -126,120 +1059,101 @@
    0.0
   </Widget.verticalAlignment>
   <Widget.flags>
-   0
+   12<!-- Manually changed to enable resizing horizontally and vertically -->
   </Widget.flags>
  </Widget>
- 
- 
  <Node>
-  <!--root node-->
+  <Node.wname/>
+  <Node.shape>
+   -1
+  </Node.shape>
+  <Node.transformation>
+   0
+  </Node.transformation>
+  <Node.display>
+   0
+  </Node.display>
+  <Node.widget>
+   -1
+  </Node.widget>
   <Node.child>
-   1 
+   1
   </Node.child>
+  <Node.flags>
+   8192
+  </Node.flags>
  </Node>
- 
-<Node>
+ <Node>
   <Node.wname>
-   sheet
+   sheet:frame
   </Node.wname>
   <Node.shape>
    0
   </Node.shape>
+  <Node.transformation>
+   1
+  </Node.transformation>
+  <Node.display>
+   1
+  </Node.display>
+  <Node.widget>
+   0
+  </Node.widget>
   <Node.child>
    2
   </Node.child>
   <Node.child>
    3
   </Node.child>
-  <Node.child>
-   4
-  </Node.child>
-  <Node.widget>
-   0
-  </Node.widget>
   <Node.flags>
    0
   </Node.flags>
-  <Node.transformation>
-   -1
-  </Node.transformation>
-  <Node.display>
-   -1
-  </Node.display>
  </Node>
- 
- 
-<Node>
-  <Node.wname>
-   sheet:frame
-  </Node.wname>
-  <Node.shape>
-   1
-  </Node.shape>
-  <Node.widget>
-   -1
-  </Node.widget>
-  <Node.flags>
-   0
-  </Node.flags>
-  <Node.transformation>
-   -1
-  </Node.transformation>
-  <Node.display>
-   -1
-  </Node.display>
- </Node>
- 
- 
  <Node>
   <Node.wname>
    sheet:panel
   </Node.wname>
   <Node.shape>
-   2
+   1
   </Node.shape>
+  <Node.transformation>
+   2
+  </Node.transformation>
+  <Node.display>
+   2
+  </Node.display>
   <Node.widget>
    1
   </Node.widget>
   <Node.flags>
    0
   </Node.flags>
-  <Node.transformation>
-   -1
-  </Node.transformation>
-  <Node.display>
-   -1
-  </Node.display>
  </Node>
- 
  <Node>
   <Node.wname>
    id
   </Node.wname>
   <Node.shape>
-   3
+   2
   </Node.shape>
+  <Node.transformation>
+   3
+  </Node.transformation>
+  <Node.display>
+   3
+  </Node.display>
   <Node.widget>
    -1
   </Node.widget>
   <Node.flags>
    0
   </Node.flags>
-  <Node.transformation>
-   0
-  </Node.transformation>
-  <Node.display>
-   -1
-  </Node.display>
  </Node>
- 
-
- 
  <pageWidth>
-  1000.0
+  500.0
  </pageWidth>
  <pageHeight>
-  1000.0
+  500.0
  </pageHeight>
  <dpi>
   72.0
@@ -248,6 +1162,6 @@
   0.0
  </unit>
  <pageColor>
-  [1.0, 1.0, 1.0, 1.0]
+  [1.0, 1.0, 1.0, 0.0]
  </pageColor>
 </root>

@@ -970,12 +970,13 @@
   <Display.wname/>
   <Display.visibility>
    <Attribute.frame>
-    [1]
+    [0]
    </Attribute.frame>
    <Attribute.frame>
-    [1]
+    [0]
    </Attribute.frame>
   </Display.visibility>
+  <!-- hidden: a visible id node is hit by the tool-radius hover test and hides the sheet tool's corner indicator -->
   <Display.clipping>
    <Attribute.frame>
     [0]
